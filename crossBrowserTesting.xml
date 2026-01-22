@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners> 
+<listener class-name="com.ITestListener.ITestListenerClass"></listener>
+</listeners>
+  <test name="FoundIt Testing Automation Chrome Brwoser Testing">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="https://www.foundit.in/rio/sign-out"></parameter>
+    <classes>
+      <class name="com.runner.RunnerClass"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="FoundIt Testing Automation FireFox Browser Testing">
+   <parameter name="browser" value="firefox"></parameter>
+   <parameter name="url" value="https://www.foundit.in/rio/sign-out"></parameter>
+    <classes>
+      <class name="com.runner.RunnerClass"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="FoundIt Testing Automation Edge Browser Testing">
+   <parameter name="browser" value="edge"></parameter>
+   <parameter name="url" value="https://www.foundit.in/rio/sign-out"></parameter>
+    <classes>
+      <class name="com.runner.RunnerClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
