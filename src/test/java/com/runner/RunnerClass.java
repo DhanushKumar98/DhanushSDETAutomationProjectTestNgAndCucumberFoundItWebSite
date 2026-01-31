@@ -42,13 +42,19 @@ public class RunnerClass extends BaseClass {
 				.createTest(
 						"FOUNDIT WEB APPLICATION TEST" + " : " + Thread.currentThread().getStackTrace()[1].getMethodName().toString())
 				.info("LOGIN PAGE TEST");
-		
+		ExtentReport_Test.extenttest.info("User Should enter Email ID");
 		pageObjectManager.getLoginPage().setEmail();
+		ExtentReport_Test.extenttest.info("User Should Click on Login Via Password Button");
 		pageObjectManager.getLoginPage().loginViaPassword();
+		ExtentReport_Test.extenttest.info("User Should enter Password");
 		pageObjectManager.getLoginPage().setPassword();
+		ExtentReport_Test.extenttest.info("User Should Validate Profile Message");
 		pageObjectManager.getLoginPage().validatecreateProfileMessage();
+		ExtentReport_Test.extenttest.info("User Should Validate Login Page Image");
 		pageObjectManager.getLoginPage().validateLoginPageImage();
+		ExtentReport_Test.extenttest.info("User Should Click Show Password Button");
 		pageObjectManager.getLoginPage().clickPasswordShow();
+		ExtentReport_Test.extenttest.info("User Should Click on Login Button");
 		pageObjectManager.getLoginPage().clickOnLoginBtn();
 		localWait(10000);
 	}

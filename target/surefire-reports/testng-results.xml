@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-29T23:30:59 IST" name="Suite" finished-at="2026-01-29T23:33:34 IST" duration-ms="154837">
+    <groups>
+    </groups>
+    <test started-at="2026-01-29T23:30:59 IST" name="Test" finished-at="2026-01-29T23:33:34 IST" duration-ms="154837">
+      <class name="com.runner.RunnerClass">
+        <test-method is-config="true" signature="extentReportStart()[pri:0, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:30:58 IST" name="extentReportStart" finished-at="2026-01-29T23:30:59 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportStart -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:30:59 IST" name="setUp" finished-at="2026-01-29T23:31:04 IST" duration-ms="5680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPage()[pri:1, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:31:04 IST" name="loginPage" finished-at="2026-01-29T23:31:19 IST" duration-ms="14709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="profilePage()[pri:2, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:31:19 IST" name="profilePage" finished-at="2026-01-29T23:31:26 IST" duration-ms="6999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profilePage -->
+        <test-method signature="profileSummaryPage()[pri:3, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:31:27 IST" name="profileSummaryPage" finished-at="2026-01-29T23:31:29 IST" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileSummaryPage -->
+        <test-method signature="uploadResumePage()[pri:4, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:31:29 IST" name="uploadResumePage" finished-at="2026-01-29T23:31:36 IST" duration-ms="6851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadResumePage -->
+        <test-method signature="workExperiencePage()[pri:5, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:31:36 IST" name="workExperiencePage" finished-at="2026-01-29T23:31:54 IST" duration-ms="17705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workExperiencePage -->
+        <test-method signature="skillsPage()[pri:6, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:31:54 IST" name="skillsPage" finished-at="2026-01-29T23:32:23 IST" duration-ms="29027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skillsPage -->
+        <test-method signature="educationPage()[pri:7, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:32:23 IST" name="educationPage" finished-at="2026-01-29T23:32:50 IST" duration-ms="27130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- educationPage -->
+        <test-method signature="jobPreferrencesPage()[pri:8, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:32:50 IST" name="jobPreferrencesPage" finished-at="2026-01-29T23:33:32 IST" duration-ms="41001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobPreferrencesPage -->
+        <test-method signature="coursesAndCertificationPage()[pri:9, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:33:32 IST" name="coursesAndCertificationPage" finished-at="2026-01-29T23:33:33 IST" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coursesAndCertificationPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:33:33 IST" name="tearDown" finished-at="2026-01-29T23:33:34 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="extentReportEnd()[pri:0, instance:com.runner.RunnerClass@445b295b]" started-at="2026-01-29T23:33:34 IST" name="extentReportEnd" finished-at="2026-01-29T23:33:35 IST" duration-ms="1415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportEnd -->
+      </class> <!-- com.runner.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
